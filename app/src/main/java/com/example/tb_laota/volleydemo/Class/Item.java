@@ -2,9 +2,6 @@ package com.example.tb_laota.volleydemo.Class;
 
 import java.util.ArrayList;
 
-/**
- * Created by tb_laota on 9/21/2015.
- */
 public class Item {
     public String title,image;
     public int year;
