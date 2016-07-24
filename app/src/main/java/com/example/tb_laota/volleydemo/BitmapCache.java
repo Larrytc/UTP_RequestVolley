@@ -9,11 +9,7 @@ import com.android.volley.toolbox.ImageLoader;
  * Created by tb_laota on 9/21/2015.
  */
 public class BitmapCache extends LruCache<String,Bitmap> implements ImageLoader.ImageCache{
-    /**
-     * @param maxSize for caches that do not override {@link #sizeOf}, this is
-     *                the maximum number of entries in the cache. For all other caches,
-     *                this is the maximum sum of the sizes of the entries in this cache.
-     */
+
     public BitmapCache(int maxSize) {
         super(maxSize);
     }
