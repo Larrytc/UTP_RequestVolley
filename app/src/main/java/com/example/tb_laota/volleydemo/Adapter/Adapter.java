@@ -16,9 +16,6 @@ import com.example.tb_laota.volleydemo.R;
 
 import java.util.List;
 
-/**
- * Created by tb_laota on 9/21/2015.
- */
 public class Adapter extends BaseAdapter{
     private LayoutInflater inflater;
     private Activity activity;
