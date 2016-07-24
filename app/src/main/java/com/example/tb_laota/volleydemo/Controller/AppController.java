@@ -9,9 +9,6 @@ import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 import com.example.tb_laota.volleydemo.BitmapCache;
 
-/**
- * Created by tb_laota on 9/21/2015.
- */
 public class AppController extends Application {
     public static final String TAG= AppController.class.getSimpleName();
     private RequestQueue mRequestQueue;
